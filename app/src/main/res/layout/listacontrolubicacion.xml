@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListUNombre"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/EliminarBoton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="#B54141"
+        android:textColor="#FFFF"
+        android:text="Eliminar" />
+    <Button
+        android:id="@+id/ModificarBoton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/EliminarBoton"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="#0BA2E2"
+        android:textColor="#FFFF"
+        android:text="Modificar" />
+
+</RelativeLayout>

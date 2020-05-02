@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicacion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#212158"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginBottom="05dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:background="#23A455"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickRegistrar" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar"
+        android:background="#B54141"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickBorrar" />
+
+    <Button
+        android:id="@+id/btnVisualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visualizar"
+        android:background="#0BA2E2"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickVisualizar" />
+
+
+</LinearLayout>

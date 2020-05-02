@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#212158"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp"
+            android:layout_marginTop="05dp"
+            android:layout_marginBottom="05dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginBottom="05dp"
+        android:text="Nombre:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#212158"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginBottom="05dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginBottom="05dp"
+        android:text="Descripcion:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#212158"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginBottom="05dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginBottom="05dp"
+        android:text="Latitud:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#212158"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginBottom="05dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginBottom="05dp"
+        android:text="Longitud:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#212158"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="05dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginBottom="05dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnGuardarE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guardar"
+            android:background="#23A455"
+            android:textColor="#FFFF"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp"
+            android:layout_marginTop="05dp"
+            android:layout_marginBottom="05dp"
+            android:onClick="onClickGuardar" />
+
+        <Button
+            android:id="@+id/btnCancelarE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar"
+            android:background="#B54141"
+            android:textColor="#FFFF"
+            android:layout_marginLeft="05dp"
+            android:layout_marginRight="05dp"
+            android:layout_marginTop="05dp"
+            android:layout_marginBottom="05dp"
+            android:onClick="onClickCancelar" />
+    </LinearLayout>
+
+</LinearLayout>
